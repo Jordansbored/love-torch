@@ -1,0 +1,14 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Love_Flame"
+    },
+    {
+      "SpawnerId": "Love_Fireflies"
+    },
+    {
+      "SpawnerId": "Love_Hearts"
+    }
+  ],
+  "CullDistance": 100
+}

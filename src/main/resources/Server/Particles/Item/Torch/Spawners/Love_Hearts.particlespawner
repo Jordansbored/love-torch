@@ -1,0 +1,104 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "Billboard",
+  "MaxConcurrentParticles": 20,
+  "ParticleLifeSpan": {
+    "Min": 1.5,
+    "Max": 2.5
+  },
+  "SpawnRate": {
+    "Min": 8.0,
+    "Max": 12.0
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 0.5,
+      "Max": 1.0
+    },
+    "Yaw": {
+      "Min": 0.0,
+      "Max": 360.0
+    },
+    "Pitch": {
+      "Min": 60.0,
+      "Max": 120.0
+    }
+  },
+  "EmitOffset": {
+    "X": {
+      "Min": -0.2,
+      "Max": 0.2
+    },
+    "Y": {
+      "Min": 2.0,
+      "Max": 2.2
+    },
+    "Z": {
+      "Min": -0.2,
+      "Max": 0.2
+    }
+  },
+  "Attractors": [
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 3.0,
+        "Z": 0.0
+      },
+      "RadialAxis": {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "RadialAcceleration": -1.0,
+      "RadialTangentAcceleration": 2.0
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Shapes/Hearts.png",
+    "FrameSize": {
+      "Width": 32,
+      "Height": 32
+    },
+    "UVOption": "RandomFlipU",
+    "Animation": {
+      "0": {
+        "Opacity": 0.0,
+        "Color": "#ff0000",
+        "Scale": {
+          "X": 0.2,
+          "Y": 0.2
+        },
+        "Rotation": {
+          "Z": 0.0
+        }
+      },
+      "20": {
+        "Opacity": 1.0,
+        "Color": "#ff69b4",
+        "Scale": {
+          "X": 0.4,
+          "Y": 0.4
+        }
+      },
+      "80": {
+        "Opacity": 1.0,
+        "Color": "#ff1493"
+      },
+      "100": {
+        "Opacity": 0.0,
+        "Color": "#8b0000",
+        "Scale": {
+          "X": 0.1,
+          "Y": 0.1
+        },
+        "Rotation": {
+          "Z": 360.0
+        }
+      }
+    },
+    "InitialAnimationFrame": {
+      "Color": "#ff0000"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "Group": "Jordansbored",
+    "Name": "LoveTorch",
+    "Version": "1.0.0",
+    "Description": "A Valentine's Day themed torch with hearts.",
+    "Authors": [
+        {
+            "Name": "Jordansbored",
+            "Url": "https://github.com/Jordansbored"
+        }
+    ],
+    "Website": "https://github.com/Jordansbored",
+    "ServerVersion": "*",
+    "Dependencies": {
+        
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "Main": "com.jordansbored.lovetorch.LoveTorchPlugin",
+    "IncludesAssetPack": true
+}
