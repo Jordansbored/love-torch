@@ -12,7 +12,7 @@ The **Love Torch** features a lovely pink flame accompanied by a spiraling torna
 
 ## Installation
 
-1. Download the latest `LoveTorch-1.0.0.jar` from Releases.
+1. Download the latest `LoveTorch-1.0.0.jar` from [Releases](https://github.com/Jordansbored/love-torch/releases).
 2. Place the JAR in your Hytale mods folder:
    - **Linux (Flatpak):** `~/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Mods/`
    - **Windows:** `%AppData%/Hytale/UserData/Mods/`
@@ -24,7 +24,6 @@ Crafted at a **Workbench** using basic resources:
 
 **Input:**
 - 4x **Crude Torch** (`Furniture_Crude_Torch`)
-- 1x **Life Essence** (`Ingredient_Life_Essence`)
 
 **Output:**
 - 4x **Love Torch**

@@ -1,41 +1,44 @@
 {
   "RenderMode": "BlendLinear",
   "ParticleRotationInfluence": "Billboard",
-  "MaxConcurrentParticles": 10,
+  "LinearFiltering": true,
+  "LightInfluence": 0,
+  "ParticleRotateWithSpawner": false,
+  "MaxConcurrentParticles": 12,
   "ParticleLifeSpan": {
     "Min": 0.5,
     "Max": 0.8
   },
   "SpawnRate": {
-    "Min": 10.0,
-    "Max": 15.0
+    "Min": 15,
+    "Max": 20
+  },
+  "TotalParticles": {
+    "Min": -1,
+    "Max": -1
   },
   "InitialVelocity": {
-    "Speed": {
-      "Min": 0.2,
-      "Max": 0.4
-    },
     "Yaw": {
-      "Min": 0.0,
-      "Max": 360.0
+      "Min": -20,
+      "Max": 20
     },
     "Pitch": {
-      "Min": 80.0,
-      "Max": 100.0
+      "Min": 70,
+      "Max": 110
+    },
+    "Speed": {
+      "Min": 0.15,
+      "Max": 0.25
     }
   },
   "EmitOffset": {
     "X": {
-      "Min": -0.1,
-      "Max": 0.1
-    },
-    "Y": {
-      "Min": 2.0,
-      "Max": 2.2
+      "Min": -0.03,
+      "Max": 0.03
     },
     "Z": {
-      "Min": -0.1,
-      "Max": 0.1
+      "Min": -0.03,
+      "Max": 0.03
     }
   },
   "Particle": {
@@ -44,35 +47,54 @@
       "Width": 32,
       "Height": 32
     },
-    "UVOption": "RandomFlipU",
+    "ScaleRatioConstraint": "None",
     "Animation": {
       "0": {
-        "Opacity": 0.0,
-        "Color": "#ff69b4",
+        "Opacity": 1,
+        "Color": "#ff88cc",
         "Scale": {
-          "X": 0.4,
-          "Y": 0.4
+          "X": { "Min": 0.8, "Max": 1.1 },
+          "Y": { "Min": 1.2, "Max": 1.6 }
         }
       },
-      "20": {
-        "Opacity": 0.8,
-        "Color": "#ff1493",
+      "25": {
+        "Opacity": 1,
+        "Color": "#ff66aa",
         "Scale": {
-          "X": 0.6,
-          "Y": 0.8
+          "X": { "Min": 0.9, "Max": 1.2 },
+          "Y": { "Min": 1.5, "Max": 2.0 }
+        }
+      },
+      "50": {
+        "Color": "#ff4488",
+        "Scale": {
+          "X": { "Min": 0.8, "Max": 1.1 },
+          "Y": { "Min": 1.8, "Max": 2.5 }
+        }
+      },
+      "75": {
+        "Color": "#cc2266",
+        "Scale": {
+          "X": { "Min": 0.6, "Max": 0.9 },
+          "Y": { "Min": 2.1, "Max": 2.8 }
         }
       },
       "100": {
-        "Opacity": 0.0,
-        "Color": "#8b0000",
         "Scale": {
-          "X": 0.2,
-          "Y": 1.2
-        }
+          "X": { "Min": 0.4, "Max": 0.7 },
+          "Y": { "Min": 2.4, "Max": 3.2 }
+        },
+        "Color": "#990033",
+        "Opacity": 0
       }
     },
     "InitialAnimationFrame": {
-      "Color": "#ff69b4"
+      "Scale": {
+        "X": { "Min": 0.8, "Max": 1.1 },
+        "Y": { "Min": 1.0, "Max": 1.4 }
+      },
+      "Opacity": 1,
+      "Color": "#ffffff"
     }
   }
 }

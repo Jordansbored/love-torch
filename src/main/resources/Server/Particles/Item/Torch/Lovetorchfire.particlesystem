@@ -4,11 +4,11 @@
       "SpawnerId": "Love_Flame"
     },
     {
-      "SpawnerId": "Love_Fireflies"
+      "SpawnerId": "Love_Hearts"
     },
     {
-      "SpawnerId": "Love_Hearts"
+      "SpawnerId": "Love_Fireflies"
     }
   ],
-  "CullDistance": 100
+  "CullDistance": 200
 }
